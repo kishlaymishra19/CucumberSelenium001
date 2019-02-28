@@ -9,4 +9,4 @@ Scenario Outline: A valid Scenario
      Examples:
     |username|password|result|
     |abc@gmail.com|abc123|valid|
-    |xyz@email.com|123456|valid|
+    |xyz@email.com|123456|invalid|
