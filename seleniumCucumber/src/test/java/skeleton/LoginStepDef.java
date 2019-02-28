@@ -20,6 +20,7 @@ WebDriver driver;
 		this.driver=driver;
 		driver.manage().window().maximize();
 	}
+	
 	@Before
 	public void beforeScenario(Scenario scenario) {
 		//System.setProperty("webdriver.chrome.driver", "C:\\Users\\a07208trng_b4a.04.28\\Downloads\\chromedriver_win32\\chromedriver.exe");

@@ -8,7 +8,8 @@ public class DriverUtility {
 	{
 		if(browser.equals("chrome"))
 		{
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\kishlay.mishra\\Downloads\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver.exe");
+			//System.setProperty("webdriver.chrome.driver", "C:\\Users\\kishlay.mishra\\Downloads\\chromedriver_win32\\chromedriver.exe");
 			return new ChromeDriver();
 		}
 		else
