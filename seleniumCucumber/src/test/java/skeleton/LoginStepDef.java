@@ -64,6 +64,8 @@ WebDriver driver;
 			//driver.findElement(By.cssSelector("input[value=Log in']")).click();
 			LoginPage.Login.click();
 			//Assert.assertNotNull(driver.findElement(By.linkText("Log out")));
+		}else{
+			Assert.fail("Test scenario is invalid");
 		}
 	    
 	    
