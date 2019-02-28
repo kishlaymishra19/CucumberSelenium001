@@ -10,3 +10,4 @@ Scenario Outline: A valid Scenario
     |username|password|result|
     |abc@gmail.com|abc123|valid|
     |xyz@email.com|123456|valid|
+    |kishlay@mishra.com|abcdefg|valid|
